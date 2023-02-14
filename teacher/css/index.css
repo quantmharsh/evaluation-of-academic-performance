@@ -1,0 +1,244 @@
+body {
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+.student_panel {
+    color: black;
+    text-align: left;
+    padding-left: 6cm;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.student_list_title {
+    color: white;
+    text-align: left;
+    padding-left: 2cm;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.register_student {
+    margin-left: 2cm;
+    margin-top: 1cm;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    padding-left: 1cm;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logout {
+    margin-right: 0.3cm;
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.teacher_list {
+    margin-left: 2cm;
+}
+
+
+/*.student_list {
+    margin-left: 1cm;
+}*/
+
+.teacher_upper_container {
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    overflow-y: auto;
+    height: 4.5cm;
+    margin-bottom: 1cm;
+}
+
+.teacher_upper_container thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}
+
+.teacher_upper_container,
+.teacher_upper_container td {
+    box-shadow: inset 1px -1px #000;
+}
+
+.teacher_upper_container th {
+    box-shadow: inset 1px 1px #000, 0 1px #000;
+}
+
+
+/*.teacher-upper-container {
+    margin: auto;
+    width: 90%;
+    padding: 0 5px;
+}
+
+.teacher-upper-container table th,
+table td {
+    margin: auto;
+    width: 2%;
+    padding: 0.2px 2px;
+    border: 0.5px solid black;
+    background-color: greenyellow;
+}
+
+.teacher-upper-container td.id {
+    width: 0.3cm;
+}*/
+
+.teacher_lower_container {
+    margin: auto;
+    margin-bottom: 1cm;
+    width: 90%;
+    overflow-y: auto;
+    height: 12cm;
+    border-radius: 20px;
+}
+
+.teacher_lower_container thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}
+
+.teacher_lower_container,
+.teacher_lower_container td {
+    box-shadow: none;
+}
+
+.teacher_lower_container th {
+    box-shadow: none;
+}
+
+
+/*#teacher-lower-container {
+    margin: auto;
+    width: 90%;
+    padding: 0 3px;
+}
+
+#teacher-lower-container table td,
+table th {
+    margin: auto;
+    width: 1%;
+    padding: 0.2px 2px;
+    border: 0.5px solid black;
+    background-color: greenyellow;
+}*/
+
+
+/*------old button-------
+
+button {
+    border: none;
+    background-color: cyan;
+    color: white;
+    padding: 10px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+button:focus {
+    text-decoration: dotted;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0, 24);
+}
+  -------------------*/
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+th {
+    background-color: #55608f;
+}
+
+
+/*-------new button----*/
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+td {
+    position: relative;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

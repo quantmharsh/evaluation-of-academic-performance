@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    /*margin: 100px;*/
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    padding-left: 1cm;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#login {
+    background-color: coral;
+    margin: auto;
+    margin-top: 4cm;
+    text-align: center;
+    width: 23%;
+    border: 1px solid black;
+    padding: 25px 10px;
+    position: relative;
+    border-radius: 1cm;
+    border: 3px ridge;
+    /*background-color: white;
+    margin: 0;
+    padding: 15px 15px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    right: 35%;
+    bottom: 30%;
+    
+    /*margin: 0;
+    border-radius: 8px;
+    padding: 15px 15px;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;*/
+}
+
+.login-form {
+    left: 50%;
+}
+
+input {
+    padding: 9px 20px;
+    margin: 10px auto;
+    width: 80%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+button:focus {
+    text-decoration: dotted;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0, 24);
+}

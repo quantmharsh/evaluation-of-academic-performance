@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 700px;
+    
+    display: grid;
+   
+    grid-template-rows:300px 1fr  ;    /* no. of rows width their width   to  incr/decr width of  student information change first row value(px) */
+    grid-template-columns:1fr 1fr ;
+    row-gap: 15px;
+    column-gap: 25px;
+
+   
+    /* grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);*/
+}
+.item{  
+    background-color: aqua;
+     /*height: 122px;
+    width: 122px;*/
+}
+
+/* student information at top*/
+.item1{                
+ /*grid-column-start: 1;       /*column span
+ grid-column-end: 4; */
+ background-color: black;
+ color: white;
+ grid-column: 1/span 3;
+}
+/*for footer if you want to add
+.footer{
+    
+    background-color: black;
+    grid-column: 1/span 3;
+}

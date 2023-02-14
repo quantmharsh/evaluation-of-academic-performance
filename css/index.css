@@ -1,0 +1,272 @@
+body {
+    background: linear-gradient(45deg, #4158d0, #c850c0);
+}
+
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    margin-top: 1cm;
+}
+
+.logout {
+    margin-right: 0.3cm;
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.teacher_list {
+    margin-left: 2cm;
+}
+
+.student_list {
+    margin-left: 2cm;
+}
+
+.admin_upper_container {
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    border-radius: 30px;
+    margin: auto;
+    width: 90%;
+    overflow-y: auto;
+    height: 12cm;
+}
+
+.admin_upper_container thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}
+
+.admin_upper_container,
+.admin_upper_container td {
+    box-shadow: none;
+}
+
+.admin_upper_container th {
+    box-shadow: none;
+}
+
+
+/*.admin-upper-container {
+    margin: auto;
+    width: 90%;
+    padding: 0 5px;
+}
+
+.admin-upper-container table th,
+table td {
+    margin: auto;
+    width: 2%;
+    padding: 0.2px 2px;
+    border: 0.5px solid black;
+    background-color: greenyellow;
+}
+
+.admin-upper-container td.id {
+    width: 0.3cm;
+}*/
+
+.admin_lower_container {
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 1cm;
+    width: 90%;
+    overflow-y: auto;
+    height: 12cm;
+}
+
+.admin_lower_container thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}
+
+.admin_lower_container,
+.admin_lower_container td {
+    box-shadow: none;
+}
+
+.admin_lower_container th {
+    box-shadow: none;
+}
+
+
+/*#admin-lower-container {
+    margin: auto;
+    width: 90%;
+    padding: 0 3px;
+}
+
+#admin-lower-container table td,
+table th {
+    margin: auto;
+    width: 1%;
+    padding: 0.2px 2px;
+    border: 0.5px solid black;
+    background-color: greenyellow;
+}*/
+
+
+/* old button----------
+
+/*button {
+    border: none;
+    background-color: cyan;
+    color: white;
+    padding: 10px 30px;
+    margin: 4px 2px;
+    cursor: pointer;    
+    transition: 0.2s all;
+}
+
+button:focus {
+    text-decoration: dotted;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0, 24);
+}*/
+
+
+/* new button-----------------*/
+
+
+/*button{
+    border: none;
+    padding: 0.8em 2.5em;
+    outline: none;
+    color: white;
+    font-style: 1.2em;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    background: none;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+  }
+  
+  button:before,
+  button:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10em;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 105%;
+    height: 105%;
+    content: "";
+    z-index: -2;
+    background-size: 400% 400%;
+    background: linear-gradient(
+      60deg,
+      #f79533,
+      #f37055,
+      #ef4e7b,
+      #a166ab,
+      #5073b8,
+      #1098ad,
+      #07b39b,
+      #6fba82
+    );
+  }
+  
+  button:before {
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-animation: pulse 10s infinite ease;
+    animation: pulse 10s infinite ease;
+  }
+  
+  button:after {
+    -webkit-filter: blur(0.3px);
+    filter: blur(0.3px);
+  }
+  
+  button:hover:before {
+    width: 115%;
+    height: 115%;
+  }
+
+ ----------NEW  BUTTON1---------*/
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+th {
+    background-color: #55608f;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
